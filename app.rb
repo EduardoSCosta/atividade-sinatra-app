@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world!"
+  "Sinatra app"
 end
 
 get '/myprs' do
