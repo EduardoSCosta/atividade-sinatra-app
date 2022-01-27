@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem 'rack-test'
 gem "rspec"
 gem 'rubocop', '~> 1.25', require: false
 gem 'simplecov', require: false, group: :test
