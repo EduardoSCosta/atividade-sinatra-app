@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world!"
+  "Sinatra app"
+end
+
+get '/myprs' do
+  erb :my_prs
 end
