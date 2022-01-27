@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Sinatra app"
+  erb :about_me
 end
 
 get '/myprs' do
