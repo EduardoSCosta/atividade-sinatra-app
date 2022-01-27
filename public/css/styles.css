@@ -50,8 +50,8 @@ ul {
   font-size: 1.2rem;
 }
 
-.about-me-container {
-  margin-left: 15px;
+.container {
+  margin: 0 15px;
 }
 
 h3 {
@@ -60,4 +60,6 @@ h3 {
 
 p {
   text-indent: 20px;
+  line-height: 1.8;
+  text-align: justify;
 }
