@@ -13,8 +13,13 @@ describe 'App' do
     Sinatra::Application
   end
 
-  it "return response 200" do
+  it "return response 200 from the \"about me\" page" do
     get '/'
+    expect(last_response).to be_ok
+  end
+
+  it "return response 200 from the \"my pull requests\" page" do
+    get '/myprs'
     expect(last_response).to be_ok
   end
 end
