@@ -2,15 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Sinatra App</title>
 </head>
 <body>
-  <a href="/">Sobre mim</a>
-  <br/>
-  <a href="/myprs">Meus pull requests</a>
-  <br/>
-  <a href="/finalpaper">Meu TCC</a>
-  <br/>
+  <nav>
+    <a class="nav-link" href="/">Sobre mim</a>
+    <a class="nav-link" href="/myprs">Meus pull requests</a>
+    <a class="nav-link" href="/finalpaper">Meu TCC</a>
+  </nav>
   <%= yield %>
 </body>
 </html>
