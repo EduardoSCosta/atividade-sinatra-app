@@ -19,12 +19,12 @@ describe 'App' do
   end
 
   it "return response 200 from the /myprs route" do
-    get '/myprs'
+    get '/my_prs'
     expect(last_response).to be_ok
   end
 
   it "return response 200 from the /finalpaper route" do
-    get '/finalpaper'
+    get '/final_paper'
     expect(last_response).to be_ok
   end
 end
