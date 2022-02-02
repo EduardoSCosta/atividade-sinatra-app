@@ -8,6 +8,6 @@ get '/my_prs' do
   erb :my_prs
 end
 
-get '/finalpaper' do
+get '/final_paper' do
   erb :final_paper
 end
